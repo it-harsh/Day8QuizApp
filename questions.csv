@@ -1,0 +1,49 @@
+question;option1;option2;option3;option4;answerIndex
+Which of the following best describes method overloading?;Defining multiple methods with same name but different parameter lists;Defining multiple methods with same name and parameters;Overriding a method in a subclass;Calling a method multiple times;0
+How do you prevent a divide-by-zero ArithmeticException?;Wrap in try-catch and check divisor before dividing;Use finally block only;Override divide method in Math class;Ignore the exception;0
+What is the main difference between '==' and '.equals()' in Java?;== compares references;.equals() compares values;== compares values;.equals() compares references;2
+Which primitive type in Java consumes the least memory?;byte;short;int;boolean;0
+What makes Java platform-independent?;JVM bytecode execution;JDK installation;Native OS compilers;JVM versioning;0
+Which OOP concept is achieved when class variables are private and accessed via getters and setters?;Encapsulation;Inheritance;Polymorphism;Abstraction;0
+Which keyword is used to call the constructor of a superclass?;super;this;extends;parent;0
+What is dynamic binding?;Resolving method calls at runtime;Resolving method calls at compile time;Linking libraries during installation;Overloading methods;0
+Which is not a valid implementation of List?;ArrayList;LinkedList;HashMap;Vector;2
+Which method is used to sort an ArrayList?;Collections.sort(list);list.sort();Arrays.sort(list);list.order();0
+Which statement is true about ArrayList and arrays?;ArrayList grows dynamically;Array has faster insertion than ArrayList;ArrayList stores primitive types directly;ArrayList size is fixed;0
+Which interface does HashMap implement?;Map;List;Collection;Iterable;0
+Which method is used to iterate over a Map?;entrySet();get();put();map();0
+Which of these exceptions is checked?;IOException;NullPointerException;ArithmeticException;ArrayIndexOutOfBoundsException;0
+What is the use of try-with-resources?;Automatically closes resources;Prevents runtime errors;Prevents compile-time errors;Avoids finally block;0
+Which statement about BufferedReader is true?;Reads characters efficiently using an internal buffer;Reads only bytes;Is slower than FileReader;Cannot read lines;0
+In file writing, append mode means;New data is added without deleting existing;Old data is removed first;File is locked;File is read-only;0
+Which block is always executed in exception handling?;finally;catch;try;throw;0
+Which memory area stores class-level variables?;Method Area;Heap;Stack;Register;0
+Which is not a JVM memory area?;Permanent Generation;Heap;Stack;GPU Memory;3
+Which prevents SQL Injection?;PreparedStatement;Statement;ResultSet;DriverManager;0
+What is auto-commit in JDBC?;Each SQL statement is committed automatically;Commit happens only after connection close;Commit is done manually;Disables transactions;0
+Which method retrieves data from a ResultSet?;getXXX();setXXX();executeUpdate();executeQuery();0
+Which is not a Swing component?;JButton;JPanel;JFrame;Canvas;3
+What is the Event Dispatch Thread (EDT) in Java Swing?;Thread that handles all GUI updates;Thread that handles database updates;Thread that compiles GUI code;Thread that creates layouts;0
+Which Java 8 feature allows processing of collections in a functional style?;Streams API;JDBC;Serialization;Swing;0
+Which method in Thread is used to pause execution for a specific time?;sleep();wait();yield();stop();0
+Which concurrent collection allows thread-safe retrieval without locking?;ConcurrentHashMap;HashMap;TreeMap;LinkedHashMap;0
+Which keyword in Java is used to ensure a variable cannot be modified?;final;static;private;volatile;0
+Which class in Java is immutable?;String;StringBuilder;StringBuffer;ArrayList;0
+Which method is used to start a thread in Java?;start();run();execute();begin();0
+Which access modifier allows access from any class in any package?;public;protected;default;private;0
+Which collection guarantees insertion order?;LinkedHashMap;HashSet;HashMap;TreeSet;0
+Which functional interface is used for lambda expressions with one input and one output?;Function<T,R>;Supplier<T>;Consumer<T>;Predicate<T>;0
+Which method is used to release a lock acquired by a thread?;Locks are released automatically when synchronized block ends;unlock();releaseLock();freeLock();0
+Which Java keyword is used to prevent method overriding?;final;static;private;abstract;0
+Which exception is thrown when a thread waits, sleeps, or joins, and another thread interrupts it?;InterruptedException;IllegalThreadStateException;ThreadDeath;RuntimeException;0
+Which method is used to serialize an object?;writeObject();serialize();saveObject();objectToFile();0
+Which annotation marks a method as a test method in JUnit 5?;@Test;@Run;@Execute;@Unit;0
+Which keyword is used to create an anonymous inner class in Java?;new;class;inner;anonymous;0
+Which stream method in Java is used to filter elements based on a condition?;filter();map();reduce();collect();0
+Which class is used to represent a sequence of characters that can be modified?;StringBuilder;String;Character;CharSequence;0
+Which keyword in Java is used for package-level access?;default (no modifier);protected;private;internal;0
+Which Java collection implements LIFO order?;Stack;Queue;ArrayList;PriorityQueue;0
+Which method is used to compare two strings ignoring case?;equalsIgnoreCase();compareToIgnoreCase();equalsCaseInsensitive();matchIgnoreCase();0
+Which Java feature allows methods to be invoked on objects at runtime without knowing their compile-time type?;Reflection;Polymorphism;Overloading;Abstraction;0
+Which garbage collection algorithm is default in Java 11?;G1 Garbage Collector;Parallel GC;CMS;Serial GC;0
+Which thread state means the thread is waiting for another thread to signal it?;WAITING;TIMED_WAITING;BLOCKED;RUNNABLE;0
